@@ -4,7 +4,8 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Página principal</title>
+     <title>Inicio</title>
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
      <link rel="stylesheet" href="css/styles.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,34 +13,46 @@
     <script src="https://kit.fontawesome.com/aa1f0261ac.js" crossorigin="anonymous"></script>
  </head>
 
- <body>
-    <header class="header">
-        <nav class="nav">
-         <a class="inicio" href="index.html"><i class="fa-solid fa-house"></i> Inicio </a> 
-            <ul class="ul">
-             <li class="liHeader"><a href="experiencia.html"><i class="fa-solid fa-briefcase"></i> Experiencia</a></li>
-             <li class="liHeader"><a href="educacion.html"><i class="fa-solid fa-graduation-cap"></i> Educación</a></li>
-             <li class="liHeader"><a href="habilidades.html"><i class="fa-solid fa-flag"></i></i> Habilidades</a></li>
-             <li class="liHeader"><a href="contacto.html"><i class="fa-solid fa-phone"></i> Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+ <header>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+      </label>
+      <a href="#" class="enlace"></a>
+      <ul>
+         <li><a href="index.html"><i class="fa-solid fa-house"></i> Inicio</a></li>
+         <li><a href="experiencia.html"><i class="fa-solid fa-briefcase"></i> Experiencia</a></li>
+         <li><a href="educacion.html"><i class="fa-solid fa-graduation-cap"></i> Educación</a></li>
+         <li><a href="habilidades.html"><i class="fa-solid fa-flag"></i></i> Habilidades</a></li>
+         <li><a href="contacto.html"><i class="fa-solid fa-phone"></i> Contacto</a></li>
+      </ul>
+  </nav>
+</header>
 
     <div class="contenedorFoto">
         <img src= "img/fotoNahuel.png" class="foto" alt="Foto de Nahuel">
         <div class="textoFoto">
        <h1>Nahuel Tiziano Minervino</h1>
-         <p>Estudiante de la Tecnicatura en Desarrollo de Software en UADE</p>
-      </div>
-      
-    </div>
+          <p>Estudiante de la Tecnicatura en Desarrollo de Software en UADE</p>
+          <div class="datos">
+          <ul>
+            <p>- <i class="fa-solid fa-location-dot"></i> Partido de San Martín</p>
+            <p>- <i class="fa-solid fa-phone"></i> 11-3349-8033</p>
+            
+          </ul>
+          </div>
+       </div>
+
+       </div>
+
 
   
 
  <div class="borde">
     <div class="contenedorParrafo"> 
         <h1>Sobre mi</h1>
-        <p>Mi principal objetivo es desempeñarme laboralmente integrándome a un equipo y un ambiente de trabajo en el cual pueda adquirir experiencias y al mismo tiempo desarrollar mis potencialidades y mi capacidad para trabajar dentro de una empresa, con responsabilidad y dinamismo. Me considero una persona con habilidad para comunicarse, que aprende rápidamente y entusiasta con los objetivos que se me proponen. </p>
+        <p>Mi principal objetivo es desempeñarme laboralmente integrándome a un equipo y un ambiente de trabajo en el cual pueda adquirir experiencias y al mismo tiempo desarrollar mis potencialidades y mi capacidad para trabajar dentro de una empresa, con responsabilidad y dinamismo. Me considero una persona con habilidad para comunicarse, que aprende rápidamente y que es entusiasta con los objetivos que se me proponen. </p>
     </div>
  </div>
 
@@ -51,5 +64,7 @@
  <footer id="footerIndex">
     <p>Disponibilidad para integrarme al ámbito laboral de manera inmediata y con disponibilidad para trabajar full time</p>
  </footer>
+
+ 
 
 </html>

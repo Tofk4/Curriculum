@@ -1,26 +1,23 @@
 *{
     font-family: 'Roboto Slab', serif;
     margin: 0;
-   
     
+     
 
 }
 
-.liHeader{
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 40px;
-
-}
 
 a{
     text-decoration: none;
     color: white;
-
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-a:hover{
-color: black;
+.liHeader:hover{
+background: rgb(158, 154, 154);
+
+
 }
 
 nav{
@@ -31,25 +28,6 @@ nav{
 
 }
 
-.header{
-    font-size: 30px;
-    font-weight: bold;
-    background-color: rgb(13, 112, 112)
-
-}
-
-.ul{
-    display: flex;
-    list-style: none;
-    margin-right: 40px;
-    line-height: 90px;
-
-}
-
-.inicio{
-    line-height: 90px;
-    margin-left: 40px;
-}
 
 .foto{
     margin-top: 40px;
@@ -57,6 +35,7 @@ nav{
     border-radius: 250px;
     height: 350px;
     border: 1px solid black;
+    box-shadow: 10px 5px 5px rgba(90, 91, 91, 0.384);
     
 }
 
@@ -68,6 +47,7 @@ nav{
 .textoFoto{
   margin-left: 60px;
   margin-top: 25px;
+  text-shadow: 2px 2px #00000033;
 
 }
 
@@ -87,17 +67,19 @@ nav{
     margin-right: 3px;
     margin-top: 25px;
     padding-bottom: 50px;
+    text-shadow: 2px 2px #00000025;
    
 
 }
 
 .contenedorParrafo h1{
-    font-size: 37px;
+    font-size: 40px;
     text-decoration: underline;
+    text-shadow: 2px 2px #00000030;
 }
 
 .contenedorParrafo p{
-    font-size: 27px;
+    font-size: 30px;
     margin-top: 20px;
 
 }
@@ -110,6 +92,17 @@ nav{
     box-shadow: 10px 5px 5px rgb(90 91 91);
     margin-top: 60px;
     
+}
+
+.datos{
+    margin-top: 60px;
+    
+}
+
+.datos p{
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: 10px;
 
 }
 body{
@@ -125,19 +118,20 @@ body{
 /*footer*/
 
 #footerIndex{
-    margin-top: 75px;
+    margin-top: 30px;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    text-shadow: 2px 2px #00000030;
 
 
 }
 
 #footerExperiencia{
-    margin-top: 750px;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    text-shadow: 2px 2px #00000030;
 
 
 }
@@ -147,6 +141,7 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    text-shadow: 2px 2px #00000030;
 
 
 }
@@ -156,14 +151,16 @@ body{
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    text-shadow: 2px 2px #00000030;
 }
 
 
 #footerContacto{
-    margin-top: 45px;
+    margin-top: 105px;
     text-align: center;
     font-weight: bold;
     font-size: 24px;
+    text-shadow: 2px 2px #00000030;
 }
 
 /*footer*/
@@ -183,15 +180,22 @@ margin-top: 25px;
 border: 1px solid black;
 box-shadow: 10px 5px 5px rgb(90 91 91);
 padding: 50px;
-padding-bottom: 15%;
+padding-bottom: 2%;
 margin-right: 25px;
 font-weight: bold;
+text-shadow: 2px 2px #00000030;
+
 
 }
 
+#habilidades li{
+    padding: 15px;
+}
 
 .textoEducacion{
-margin: 65px;
+margin: 50px;
+margin-top: 40px;
+text-shadow: 2px 2px #00000030;
 
 
 
@@ -202,6 +206,13 @@ margin: 65px;
 
 }
 
+.textoEducacion p{
+    font-size: 35px;
+    margin-top: 10px;
+
+}
+
+
 .textoEducacion_1{
 
 font-size: 25px;
@@ -209,12 +220,6 @@ border: 1px solid black;
 box-shadow: 10px 5px 5px rgb(90 91 91);
 padding: 25px;
 
-
-}
-
-.textoEducacion_1 p{
-font-size: 35px;
-margin-top: 10px;
 
 }
 
@@ -228,14 +233,8 @@ margin-top: 10px;
 
 }
 
-.textoEducacion_2 p{
-    font-size: 35px;
-     margin-top: 10px;
-     
-    
-    }
 
-    .textoEducacion_3{
+.textoEducacion_3{
       margin-top: 40px;
       font-size: 25px;
       border: 1px solid black;
@@ -243,10 +242,7 @@ margin-top: 10px;
       padding: 25px;
     }
 
-    .textoEducacion_3 p{
-        font-size: 35px;
-        margin-top: 10px;
-    }
+
 
 .listaContacto{
     font-size: 40px;
@@ -254,27 +250,188 @@ margin-top: 10px;
     margin-top: 25px;
     border: 1px solid black;
     box-shadow: 10px 5px 5px rgb(90 91 91);
-    padding: 50px;
-    padding-bottom: 20%;
+    padding: 3%;
     margin-right: 25px;
-    display: flex;
-    word-spacing: 7px;
-    display: block;
+    word-spacing: 5px; 
     
 
 }
 
+
 .listaContacto a{
 color: black;
 font-weight: bold;
-display: block;
-padding: 5px;
+display: inline-block;
+padding: 15px;
+background-color: rgba(255, 255, 255, 0.5);
+border-radius: 15px;
+transition: .2s ease all;
+
 
 }
 
 .listaContacto a:hover{
-color: white;
+color: rgb(189, 182, 182)
+
+
 
 
 }
+
+.botonContacto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
   
+.textoExperiencia{
+    margin: 50px;
+    margin-top: 40px;
+    text-shadow: 2px 2px #00000030;
+    
+    
+    
+    }
+    
+    .textoExperiencia h1{
+      text-decoration: underline;
+    
+    }
+    
+    .textoExperiencia p{
+        font-size: 35px;
+        margin-top: 10px;
+    
+    }
+
+.textoExperiencia_1{
+
+    font-size: 20px;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px rgb(90 91 91);
+    padding: 20px;
+    
+    
+    }
+    
+    .textoExperiencia_2{
+        margin-top: 40px;
+        font-size: 20px;
+        border: 1px solid black;
+        box-shadow: 10px 5px 5px rgb(90 91 91);
+        padding: 20px;
+    
+    
+    }
+    
+    
+    .textoExperiencia_3{
+          margin-top: 40px;
+          font-size: 20px;
+          border: 1px solid black;
+          box-shadow: 10px 5px 5px rgb(90 91 91);
+          padding: 20px;
+        }
+
+    .textoExperiencia li{
+        padding: 7px;
+        font-size: 25px;
+    }
+
+    nav{
+        background-color: rgb(13, 112, 112);
+        height: 80px;
+        width: 100%;
+    }
+    .enlace{
+        position: absolute;
+        padding: 20px 50px;
+    }
+    .logo{
+        height: 40px;
+    }
+    nav ul{
+        float: right;
+        margin-right: 20px;
+    }
+    nav ul li{
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+    nav ul li a{
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 100px;
+        padding: 10px;
+        background-color: rgba(6, 61, 58, 0.596);
+        box-shadow: 4px 0px 3px 1px rgba(13, 68, 68, 0.384);
+        transition: .3s ease all;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 85px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+        
+    }
+
+    li a:hover{
+        color: #0e76ffe5;
+        transition: .3s;
+    }
+
+    
+
+    .checkbtn{
+        font-size: 30px;
+        color: #fff;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    
+    @media (max-width: 958px){
+
+        .checkbtn{
+            display: block;
+        }
+
+        ul{
+            position: fixed;
+            width: 75%;
+            height: 100%;
+            background: #2c3e50;
+            top: 80px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+        }
+
+        nav ul li{
+            display: block;
+            margin: 60px;
+            line-height: 30px;
+        }
+
+        nav ul li a{
+            font-size: 17px;
+        }
+
+        li a:hover, li a.active{
+            background: none;
+            color: #0080ffea;
+        }
+
+        #check:checked ~ ul{
+            left:0;
+        }
+
+    }
