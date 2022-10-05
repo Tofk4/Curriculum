@@ -404,7 +404,7 @@ color: rgb(189, 182, 182)
             display: block;
         }
 
-        ul{
+        .menu-hambur{
             position: fixed;
             width: 75%;
             height: 100%;
