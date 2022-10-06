@@ -30,18 +30,16 @@ nav{
 
 
 .foto{
-    margin-top: 40px;
-    margin-left: 30px;
+    margin: auto;
     border-radius: 250px;
     height: 350px;
     border: 1px solid black;
     box-shadow: 10px 5px 5px rgba(90, 91, 91, 0.384);
-    
 }
 
 .contenedorFoto{
     display: flex;
-   
+   justify-content: space-between;
 }
 
 .textoFoto{
